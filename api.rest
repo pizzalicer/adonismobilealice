@@ -18,3 +18,14 @@ Content-Type: application/json
         "email": "alicerodrigueslili.05@gmail.com",
         "password": "1234"
 }
+
+###Mensagem
+
+POST https://aliceadonismobile.onrender.com/push HTTP/1.1
+Content-Type: application/json 
+Authorization: Bearer MTM.XtlBpqZO52x3x3gQOHcPeTrim-bmE7MvxVrXoPW8Efrx2Y-_8z4tK6ye5xbo
+{
+        "id": 1,
+        "title":"oiii",
+        "body": "tuod bem??",
+}
